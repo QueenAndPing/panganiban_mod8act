@@ -1,1 +1,0 @@
-# panganiban_mod8act
