@@ -1,0 +1,16 @@
+let name = prompt("What's your Name?");
+let fm = prompt("Are you Male or Female? Kindly type M for Male and F for Female.");
+let un = prompt("What's your Username?");
+let dy = prompt("Describe yourself");
+let bo = prompt("When where you born?");
+let m = prompt("Cat.jpg");
+let date = new Date().getFullYear();
+let ag = date - bo;
+document.getElementById("fname").innerHTML = name;
+document.getElementById("gender").innerHTML = fm;
+document.getElementById("username").innerHTML = un;
+document.getElementById("desc").innerHTML = dy;
+document.getElementById("year").innerHTML = bo;
+document.getElementById("age").innerHTML = ag;
+let x = document.getElementById("ppic");
+x.setAttribute("src", m);
